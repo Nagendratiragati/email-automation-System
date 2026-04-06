@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Automation</title>
+</head>
+<body>
+
+<h2>Send Email</h2>
+
+<form action="/send" method="post">
+    <input name="email" placeholder="Enter Email"><br><br>
+    <input name="subject" placeholder="Subject"><br><br>
+    <textarea name="message" placeholder="Message"></textarea><br><br>
+    <button type="submit">Send</button>
+</form>
+
+<h2>Schedule Email</h2>
+
+<form action="/schedule" method="post">
+    <input name="email" placeholder="Enter Email"><br><br>
+    <input name="subject" placeholder="Subject"><br><br>
+    <textarea name="message" placeholder="Message"></textarea><br><br>
+    <input name="delay" placeholder="Delay in seconds"><br><br>
+    <button type="submit">Schedule</button>
+</form>
+
+</body>
+</html>
