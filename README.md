@@ -1,4 +1,4 @@
-# email-automation-
+# email-automation-System
 Smart Email Automation System using Python (Flask, SMTP) to send, schedule, and manage emails with basic web interface.
 ## 🚀 Overview
 
